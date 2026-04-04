@@ -1,25 +1,12 @@
-import { ThemeToggle } from "@/components/theme-toggle";
 import { GlowButton } from "@/components/glow-button";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen tech-grid">
-      {/* 导航栏 */}
-      <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/80 border-b border-border">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600" />
-            <span className="font-semibold text-lg">Doppler</span>
-          </div>
-          <div className="flex items-center gap-6">
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">首页</a>
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">博客</a>
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">项目</a>
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">关于</a>
-            <ThemeToggle />
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero 区域 */}
       <section className="pt-32 pb-20 px-6">
@@ -44,7 +31,9 @@ export default function Home() {
 
             {/* 按钮组 */}
             <div className="flex gap-4 flex-wrap justify-center">
-              <GlowButton>开始探索</GlowButton>
+              <Link href="/docs">
+                <GlowButton>开始探索</GlowButton>
+              </Link>
               <button className="px-8 py-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
                 了解更多
               </button>
@@ -74,19 +63,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 页脚 */}
-      <footer className="border-t border-border py-8 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-secondary text-sm">
-            © 2024 Doppler Pages. All rights reserved.
-          </p>
-          <div className="flex gap-6">
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">GitHub</a>
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">Twitter</a>
-            <a href="#" className="text-secondary hover:text-foreground transition-colors">Email</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

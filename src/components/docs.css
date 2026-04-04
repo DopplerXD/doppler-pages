@@ -1,0 +1,139 @@
+.highlight {
+  background: transparent;
+}
+
+.highlight pre {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin: 0;
+  background: transparent;
+}
+
+.highlight code {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-family: 'Roboto Mono', 'Fira Code', monospace;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #6e7781;
+  font-style: italic;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attr,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e63946;
+}
+
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #457b9d;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #2a9d8f;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #e63946;
+  font-weight: 500;
+}
+
+.hljs-function {
+  color: #3b82f6;
+}
+
+.hljs-property,
+.hljs-attribute {
+  color: #457b9d;
+}
+
+.hljs-addition {
+  color: #2a9d8f;
+}
+
+.hljs-deletion {
+  color: #e63946;
+}
+
+.dark .hljs-comment,
+.dark .hljs-quote {
+  color: #8b949e;
+}
+
+.dark .hljs-variable,
+.dark .hljs-template-variable,
+.dark .hljs-tag,
+.dark .hljs-name,
+.dark .hljs-regexp,
+.dark .hljs-link,
+.dark .hljs-selector-id,
+.dark .hljs-selector-class {
+  color: #ff7b72;
+}
+
+.dark .hljs-number,
+.dark .hljs-meta,
+.dark .hljs-built_in,
+.dark .hljs-builtin-name,
+.dark .hljs-literal,
+.dark .hljs-type,
+.dark .hljs-params {
+  color: #79c0ff;
+}
+
+.dark .hljs-string,
+.dark .hljs-symbol,
+.dark .hljs-bullet {
+  color: #7ee787;
+}
+
+.dark .hljs-title,
+.dark .hljs-section {
+  color: #d2a8ff;
+}
+
+.dark .hljs-keyword,
+.dark .hljs-selector-tag {
+  color: #ff7b72;
+}
+
+.dark .hljs-function {
+  color: #79c0ff;
+}
+
+.dark .hljs-property,
+.dark .hljs-attribute {
+  color: #79c0ff;
+}
+
+.dark .hljs-addition {
+  color: #7ee787;
+}
+
+.dark .hljs-deletion {
+  color: #ff7b72;
+}

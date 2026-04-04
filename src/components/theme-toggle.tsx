@@ -27,17 +27,18 @@ export function ThemeToggle() {
     }
   };
 
+  const getIcon = () => {
+    if (theme === "system") return <SystemIcon />;
+    return resolvedTheme === "dark" ? <MoonIcon /> : <SunIcon />;
+  };
+
   return (
     <button
       onClick={cycleTheme}
       className="w-10 h-10 rounded-lg bg-secondary/20 hover:bg-secondary/30 flex items-center justify-center transition-colors"
       title={`当前: ${theme === "system" ? "跟随系统" : theme === "light" ? "浅色" : "深色"}`}
     >
-      {resolvedTheme === "dark" ? (
-        <MoonIcon />
-      ) : (
-        <SunIcon />
-      )}
+      {getIcon()}
     </button>
   );
 }
@@ -82,6 +83,26 @@ function MoonIcon() {
       strokeLinejoin="round"
     >
       <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+    </svg>
+  );
+}
+
+function SystemIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect width="20" height="14" x="2" y="3" rx="2" />
+      <line x1="2" x2="22" y1="20" y2="20" />
+      <line x1="12" x2="12" y1="17" y2="20" />
     </svg>
   );
 }

@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "dimension": "EI",
+    "question": "开新档后，你通常会：",
+    "optionA": { "text": "先在公屏喊人一起开荒", "value": "E" },
+    "optionB": { "text": "先自己找地方安顿好再说", "value": "I" }
+  },
+  {
+    "id": 2,
+    "dimension": "EI",
+    "question": "服务器办活动时，你更可能：",
+    "optionA": { "text": "立刻报名并拉人组队", "value": "E" },
+    "optionB": { "text": "先看看情况再决定要不要参与", "value": "I" }
+  },
+  {
+    "id": 3,
+    "dimension": "EI",
+    "question": "发现稀有地形后，你第一反应是：",
+    "optionA": { "text": "马上分享坐标", "value": "E" },
+    "optionB": { "text": "先自己探索完一圈", "value": "I" }
+  },
+  {
+    "id": 4,
+    "dimension": "EI",
+    "question": "下矿时，你更喜欢：",
+    "optionA": { "text": "开语音边聊边挖", "value": "E" },
+    "optionB": { "text": "安静专注自己节奏", "value": "I" }
+  },
+  {
+    "id": 5,
+    "dimension": "EI",
+    "question": "基地建好后，你会：",
+    "optionA": { "text": "主动带别人参观", "value": "E" },
+    "optionB": { "text": "只给熟人看或干脆不展示", "value": "I" }
+  },
+  {
+    "id": 6,
+    "dimension": "EI",
+    "question": "打 Boss 前，你更常扮演：",
+    "optionA": { "text": "召集和分工的人", "value": "E" },
+    "optionB": { "text": "准备充分后安静执行的人", "value": "I" }
+  },
+  {
+    "id": 7,
+    "dimension": "EI",
+    "question": "服务器来了新人，你通常：",
+    "optionA": { "text": "主动给物资和建议", "value": "E" },
+    "optionB": { "text": "先观察对方再接触", "value": "I" }
+  },
+  {
+    "id": 8,
+    "dimension": "EI",
+    "question": "日常在线时，你更多待在：",
+    "optionA": { "text": "主城或公共区域", "value": "E" },
+    "optionB": { "text": "自己的基地和路线里", "value": "I" }
+  },
+  {
+    "id": 9,
+    "dimension": "SN",
+    "question": "设计房子时，你先想的是：",
+    "optionA": { "text": "功能区和收纳动线", "value": "S" },
+    "optionB": { "text": "主题感和整体氛围", "value": "N" }
+  },
+  {
+    "id": 10,
+    "dimension": "SN",
+    "question": "看到一大片空地，你更容易想到：",
+    "optionA": { "text": "农田、仓库、刷怪塔", "value": "S" },
+    "optionB": { "text": "城镇、圣殿、剧情场景", "value": "N" }
+  },
+  {
+    "id": 11,
+    "dimension": "SN",
+    "question": "挖到一堆材料时，你会先想：",
+    "optionA": { "text": "够不够当前项目", "value": "S" },
+    "optionB": { "text": "以后还能玩出什么新花样", "value": "N" }
+  },
+  {
+    "id": 12,
+    "dimension": "SN",
+    "question": "学新机制时，你更相信：",
+    "optionA": { "text": "现成教程和已验证方法", "value": "S" },
+    "optionB": { "text": "自己试出来的可能性", "value": "N" }
+  },
+  {
+    "id": 13,
+    "dimension": "SN",
+    "question": "修路或铺铁路时，你更关注：",
+    "optionA": { "text": "距离、转角、效率", "value": "S" },
+    "optionB": { "text": "旅途体验和场景设计", "value": "N" }
+  },
+  {
+    "id": 14,
+    "dimension": "SN",
+    "question": "评价一个基地时，你首先看：",
+    "optionA": { "text": "实用性和维护成本", "value": "S" },
+    "optionB": { "text": "创意和世界观", "value": "N" }
+  },
+  {
+    "id": 15,
+    "dimension": "SN",
+    "question": "看到冷门方块时，你更先想到：",
+    "optionA": { "text": "它实际能怎么用", "value": "S" },
+    "optionB": { "text": "它能表达什么感觉", "value": "N" }
+  },
+  {
+    "id": 16,
+    "dimension": "SN",
+    "question": "面对复杂地形时，你通常：",
+    "optionA": { "text": "顺着现状务实建设", "value": "S" },
+    "optionB": { "text": "借地形扩展成更大胆的概念", "value": "N" }
+  },
+  {
+    "id": 17,
+    "dimension": "TF",
+    "question": "队友做了个好看但难用的建筑，你会：",
+    "optionA": { "text": "先提优化建议", "value": "T" },
+    "optionB": { "text": "先肯定对方的心血", "value": "F" }
+  },
+  {
+    "id": 18,
+    "dimension": "TF",
+    "question": "分配资源时，你更倾向：",
+    "optionA": { "text": "优先关键项目", "value": "T" },
+    "optionB": { "text": "优先照顾最需要帮助的人", "value": "F" }
+  },
+  {
+    "id": 19,
+    "dimension": "TF",
+    "question": "刷材料时，你更在意：",
+    "optionA": { "text": "产量和时间比", "value": "T" },
+    "optionB": { "text": "大家过程开不开心", "value": "F" }
+  },
+  {
+    "id": 20,
+    "dimension": "TF",
+    "question": "朋友被苦力怕炸家后，你会：",
+    "optionA": { "text": "先复盘防御方案", "value": "T" },
+    "optionB": { "text": "先帮忙安慰和重建", "value": "F" }
+  },
+  {
+    "id": 21,
+    "dimension": "TF",
+    "question": "对红石机器，你更喜欢：",
+    "optionA": { "text": "精准高效", "value": "T" },
+    "optionB": { "text": "有趣好玩哪怕不最优", "value": "F" }
+  },
+  {
+    "id": 22,
+    "dimension": "TF",
+    "question": "团队有分歧时，你更常用：",
+    "optionA": { "text": "数据、结果、逻辑", "value": "T" },
+    "optionB": { "text": "气氛、关系、体感", "value": "F" }
+  },
+  {
+    "id": 23,
+    "dimension": "TF",
+    "question": "养村民或动物时，你更像：",
+    "optionA": { "text": "在做资源系统规划", "value": "T" },
+    "optionB": { "text": "在照顾一群小伙伴", "value": "F" }
+  },
+  {
+    "id": 24,
+    "dimension": "TF",
+    "question": "看别人存档时，你最先关注：",
+    "optionA": { "text": "结构逻辑和设计思路", "value": "T" },
+    "optionB": { "text": "作者个性和情绪表达", "value": "F" }
+  },
+  {
+    "id": 25,
+    "dimension": "JP",
+    "question": "开新档前，你一般会：",
+    "optionA": { "text": "先列目标路线", "value": "J" },
+    "optionB": { "text": "先进游戏再看灵感", "value": "P" }
+  },
+  {
+    "id": 26,
+    "dimension": "JP",
+    "question": "你的箱子和背包通常：",
+    "optionA": { "text": "分类清楚", "value": "J" },
+    "optionB": { "text": "够用就行，想到再整理", "value": "P" }
+  },
+  {
+    "id": 27,
+    "dimension": "JP",
+    "question": "远征下界前，你会：",
+    "optionA": { "text": "备齐药水食物和备用装备", "value": "J" },
+    "optionB": { "text": "带够基本物资就先出发", "value": "P" }
+  },
+  {
+    "id": 28,
+    "dimension": "JP",
+    "question": "突然冒出新灵感时，你多半：",
+    "optionA": { "text": "先看会不会打乱原计划", "value": "J" },
+    "optionB": { "text": "立刻转去做新东西", "value": "P" }
+  },
+  {
+    "id": 29,
+    "dimension": "JP",
+    "question": "做大型建筑时，你更喜欢：",
+    "optionA": { "text": "按阶段稳步完工", "value": "J" },
+    "optionB": { "text": "边做边改，灵感驱动", "value": "P" }
+  },
+  {
+    "id": 30,
+    "dimension": "JP",
+    "question": "游戏里最舒服的状态是：",
+    "optionA": { "text": "清单一项项被完成", "value": "J" },
+    "optionB": { "text": "被随机事件带着跑", "value": "P" }
+  },
+  {
+    "id": 31,
+    "dimension": "JP",
+    "question": "探图时，你通常：",
+    "optionA": { "text": "规划路线尽量不漏", "value": "J" },
+    "optionB": { "text": "哪边有趣就往哪走", "value": "P" }
+  },
+  {
+    "id": 32,
+    "dimension": "JP",
+    "question": "如果今晚只剩一小时，你会：",
+    "optionA": { "text": "收尾并整理现场", "value": "J" },
+    "optionB": { "text": "去做一个现在最想做的新鲜点子", "value": "P" }
+  }
+]
